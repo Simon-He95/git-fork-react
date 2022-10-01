@@ -1,6 +1,6 @@
 import { Suspense } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import GitForkReact from '@simon_he/git-fork-react'
+import GitForkReact from '../../src'
 import Footer from './components/Footer'
 import routes from '~react-pages'
 export default function App() {
