@@ -9,7 +9,16 @@ export default function App() {
       <Router>
         <Routes />
       </Router>
-      <GitForkReact />
+      <GitForkReact link="https://github.com/Simon-He95"
+        type="trapeziumType"
+        position="right"
+        color="red" />
+      <GitForkReact link="https://github.com/Simon-He95" position="right" />
+      <GitForkReact
+        link="https://github.com/Simon-He95"
+        type="ribbons"
+        position="left"
+      />
       <Footer />
     </main>
   )
