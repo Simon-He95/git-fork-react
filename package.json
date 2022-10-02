@@ -45,7 +45,7 @@
     "release": "bumpp --commit --tag --push && git push origin --tags -f && npm publish"
   },
   "dependencies": {
-    "@simon_he/git-fork-vue": "^0.0.3",
+    "@simon_he/git-fork-vue": "^0.0.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "veaury": "^2.3.9"
