@@ -45,7 +45,7 @@
     "release": "bumpp --commit --tag --push && git push origin --tags -f && npm publish"
   },
   "dependencies": {
-    "@simon_he/git-fork-vue": "^0.0.6",
+    "@simon_he/git-fork-vue": "^0.0.8",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "veaury": "^2.3.9"
@@ -63,7 +63,7 @@
     "eslint-plugin-n": "^15.2.1",
     "typescript": "^4.7.2",
     "unocss": "^0.29.2",
-    "vite": "^3.1.3",
+    "vite": "^4.0.4",
     "vite-plugin-css-injected-by-js": "^2.1.0",
     "vite-plugin-dts": "^1.5.0",
     "vite-plugin-inspector-lib-css": "^0.0.2",
