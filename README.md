@@ -29,13 +29,13 @@ export interface Props {
 
 ## 引入
 ```js
-import GitForkVue from '@simon_he/git-fork-react'
+import GitForkReact from '@simon_he/git-fork-react'
 
 ```
 
 ## 使用
 ```html
-<GitForkVue
+<GitForkReact
       link="https://github.com/Simon-He95"
       type="ribbons"
       position="left"
