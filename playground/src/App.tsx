@@ -20,6 +20,11 @@ export default function App() {
         position="left"
         top="100px"
       />
+          <GitForkReact
+        link="https://github.com/Simon-He95"
+        type="ribbons"
+        top="100px"
+      />
       <Footer />
     </main>
   )
