@@ -23,7 +23,7 @@ export default function App() {
           <GitForkReact
         link="https://github.com/Simon-He95"
         type="ribbons"
-        top="100px"
+        bottom="100px"
       />
       <Footer />
     </main>
