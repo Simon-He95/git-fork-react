@@ -12,7 +12,7 @@ export default function Index() {
       <div className="i-carbon-campsite text-4xl inline-block" />
       <p>
         <a rel="noreferrer" href="https://github.com/antfu/vitesse-lite" target="_blank">
-        Vitesse Lite
+          Vitesse Lite
         </a>
       </p>
       <p>
@@ -34,9 +34,9 @@ export default function Index() {
         <button
           className="m-3 text-sm btn"
           disabled={!name}
-          onClick={() => go() }
+          onClick={() => go()}
         >
-        Go
+          Go
         </button>
       </div>
     </div>

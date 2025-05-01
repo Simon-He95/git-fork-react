@@ -1,11 +1,11 @@
 /// <reference types="vitest" />
 
-import path from 'path'
-import { defineConfig } from 'vite'
+import path from 'node:path'
 import react from '@vitejs/plugin-react'
-import Pages from 'vite-plugin-pages'
-import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import { defineConfig } from 'vite'
+import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
   resolve: {

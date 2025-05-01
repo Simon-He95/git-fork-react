@@ -5,10 +5,10 @@ export default function Counter({ initial }: { initial: number }) {
     <div>
       {count}
       <button className="inc" onClick={() => increment()}>
-      +
+        +
       </button>
       <button className="dec" onClick={() => decrement()}>
-      -
+        -
       </button>
     </div>
   )

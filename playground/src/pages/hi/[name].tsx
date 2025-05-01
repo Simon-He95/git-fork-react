@@ -6,7 +6,9 @@ export default function Hi() {
     <div>
       <div className="i-carbon-pedestrian text-4xl inline-block" />
       <p>
-      Hi, { params.name }
+        Hi,
+        {' '}
+        { params.name }
       </p>
       <p className="text-sm op50">
         <em>Dynamic route!</em>
@@ -17,7 +19,7 @@ export default function Hi() {
           className="btn m-3 text-sm mt-8"
           onClick={() => navigate(-1)}
         >
-        Back
+          Back
         </button>
       </div>
     </div>

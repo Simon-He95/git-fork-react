@@ -1,4 +1,4 @@
-const NotFound = () => {
+function NotFound() {
   return <div>Not Found</div>
 }
 

@@ -1,3 +1,3 @@
 import { GitForkReact } from './gitFork'
-export default GitForkReact
 
+export default GitForkReact
