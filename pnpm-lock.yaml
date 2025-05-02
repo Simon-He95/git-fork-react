@@ -25,8 +25,8 @@ importers:
         specifier: workspace:^0.0.4
         version: 'link:'
       '@simon_he/git-fork-vue':
-        specifier: ^0.0.15
-        version: 0.0.15(typescript@4.9.5)
+        specifier: ^0.0.17
+        version: 0.0.17(typescript@4.9.5)
       '@types/node':
         specifier: ^17.0.45
         version: 17.0.45
@@ -696,8 +696,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@simon_he/git-fork-vue@0.0.15':
-    resolution: {integrity: sha512-gOS0UqLuCtBL1qvQR2+Y0kAxCVxbeg2nxMbs8MqfkboB48vEuMhMzYqHWJxO20WmlKukHEWcRFZnKngh/N+hIA==}
+  '@simon_he/git-fork-vue@0.0.17':
+    resolution: {integrity: sha512-ezWXq9PrsFZcDMTbhem4D2vGSygrvGVeZjl0fd9NNdLi2cdl5ZaB0ZObYvCbqVaddFsesuzqUSMghmZjgLPfKw==}
 
   '@stylistic/eslint-plugin@4.2.0':
     resolution: {integrity: sha512-8hXezgz7jexGHdo5WN6JBEIPHCSFyyU4vgbxevu4YLVS5vl+sxqAAGyXSzfNDyR6xMNSH5H1x67nsXcYMOHtZA==}
@@ -4005,7 +4005,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.40.1':
     optional: true
 
-  '@simon_he/git-fork-vue@0.0.15(typescript@4.9.5)':
+  '@simon_he/git-fork-vue@0.0.17(typescript@4.9.5)':
     dependencies:
       '@vueuse/core': 8.9.4(vue@3.5.13(typescript@4.9.5))
       vue: 3.5.13(typescript@4.9.5)
