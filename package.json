@@ -2,7 +2,7 @@
   "name": "@simon_he/git-fork-react",
   "type": "module",
   "version": "0.0.6",
-  "packageManager": "pnpm@10.10.0",
+  "packageManager": "pnpm@10.11.0",
   "description": "git-fork",
   "author": "Simon He",
   "license": "MIT",
@@ -46,19 +46,23 @@
     "release": "bumpp --commit --tag --push && git push origin --tags -f && npm publish"
   },
   "dependencies": {
+    "veaury": "^2.6.2",
+    "@simon_he/git-fork-vue": "^0.0.17"
+  },
+  "peerDependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "veaury": "^2.6.2"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.12.0",
+    "@antfu/eslint-config": "^4.13.2",
     "@simon_he/git-fork-react": "workspace:^0.0.4",
-    "@simon_he/git-fork-vue": "^0.0.17",
     "@types/node": "^17.0.45",
     "bumpp": "^7.2.0",
-    "eslint": "^9.25.1",
+    "eslint": "^9.27.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "typescript": "^4.9.5",
     "unplugin-auto-import": "^0.7.2",
-    "vite": "^6.3.4"
+    "vite": "^6.3.5"
   }
 }
